@@ -1,0 +1,35 @@
+
+body{
+    font-family:'Oswald',"speda" !important;
+    src: url(Speda.ttf);
+    background: #4776E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+@font-face {
+    font-family: 'speda';
+    src: url('Speda.ttf'); 
+  }
+  .radius-10{
+    border-radius: 10px !important;
+}
+.radius-20{
+    border-radius: 20px !important;
+}
+table td{
+    border: none !important;
+}
+.hum{
+    background: none !important;
+    color: white !important;
+}
+.hover {
+    display: inline-block;
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transform: translateZ(0);
+  }
+  .hover:hover {
+    transform: scale(1.1);
+  }
